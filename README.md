@@ -1,5 +1,7 @@
 Hi there 👋, I'm Min Thant Kyaw
 
+Full-Stack Developer
+
 About Me
 
 ```java
@@ -10,7 +12,7 @@ public class Developer {
     private String name = "Min Thant Kyaw";
 
     private String role =
-        "Software Enginner";
+        "Full-Stack Developer";
 
     @ElementCollection
     private List<String> skills = List.of(
