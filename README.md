@@ -1,16 +1,30 @@
-## Hi there 👋
+Hi there 👋, I'm Min Thant Kyaw
 
-<!--
-**mminthantkyaw/mminthantkyaw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+About Me
 
-Here are some ideas to get you started:
+```java
+@Entity
+public class Developer {
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    @Id
+    private String name = "Min Thant Kyaw";
+
+    private String role =
+        "Software Enginner";
+
+    @ElementCollection
+    private List<String> skills = List.of(
+        "Java",
+        "Spring Boot",
+        "React",
+        "MySQL",
+        "Git"
+    );
+
+    private String Obsessions =
+        "Building morden, clean, and scalable web applications";
+
+    private String status =
+        "Always Learning New Things";
+}
+```
